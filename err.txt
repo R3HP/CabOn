@@ -1,0 +1,91 @@
+1372.6 Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+1372.7 Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
+1372.8 Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+1373.9 Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+1383.0 Ign:5 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease
+1394.6 Ign:5 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease
+1405.7 Ign:5 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease
+1417.7 Err:5 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease
+1417.7   Could not handshake: The TLS connection was non-properly terminated. [IP: 10.201.176.243 443]
+1417.7 Fetched 229 kB in 47s (4838 B/s)
+1417.7 Reading package lists...
+1418.7 W: Failed to fetch https://ppa.launchpadcontent.net/ondrej/php/ubuntu/dists/jammy/InRelease  Could not handshake: The TLS connection was non-properly terminated. [IP: 10.201.176.243 443]
+1418.7 W: Some index files failed to download. They have been ignored, or old ones used instead.
+1418.7 Reading package lists...
+1419.6 Building dependency tree...
+1419.8 Reading state information...
+1421.2 E: Unable to locate package php8.3-cli
+1421.2 E: Couldn't find any package by glob 'php8.3-cli'
+1421.2 E: Couldn't find any package by regex 'php8.3-cli'
+1421.2 E: Unable to locate package php8.3-dev
+1421.2 E: Couldn't find any package by glob 'php8.3-dev'
+1421.2 E: Couldn't find any package by regex 'php8.3-dev'
+1421.2 E: Unable to locate package php8.3-pgsql
+1421.2 E: Couldn't find any package by glob 'php8.3-pgsql'
+1421.2 E: Couldn't find any package by regex 'php8.3-pgsql'
+1421.2 E: Unable to locate package php8.3-sqlite3
+1421.2 E: Couldn't find any package by glob 'php8.3-sqlite3'
+1421.2 E: Couldn't find any package by regex 'php8.3-sqlite3'
+1421.2 E: Unable to locate package php8.3-gd
+1421.2 E: Couldn't find any package by glob 'php8.3-gd'
+1421.2 E: Couldn't find any package by regex 'php8.3-gd'
+1421.2 E: Unable to locate package php8.3-curl
+1421.2 E: Couldn't find any package by glob 'php8.3-curl'
+1421.2 E: Couldn't find any package by regex 'php8.3-curl'
+1421.2 E: Unable to locate package php8.3-imap
+1421.2 E: Couldn't find any package by glob 'php8.3-imap'
+1421.2 E: Couldn't find any package by regex 'php8.3-imap'
+1421.2 E: Unable to locate package php8.3-mysql
+1421.2 E: Couldn't find any package by glob 'php8.3-mysql'
+1421.2 E: Couldn't find any package by regex 'php8.3-mysql'
+1421.2 E: Unable to locate package php8.3-mbstring
+1421.2 E: Couldn't find any package by glob 'php8.3-mbstring'
+1421.2 E: Couldn't find any package by regex 'php8.3-mbstring'
+1421.2 E: Unable to locate package php8.3-xml
+1421.2 E: Couldn't find any package by glob 'php8.3-xml'
+1421.2 E: Couldn't find any package by regex 'php8.3-xml'
+1421.2 E: Unable to locate package php8.3-zip
+1421.2 E: Couldn't find any package by glob 'php8.3-zip'
+1421.2 E: Couldn't find any package by regex 'php8.3-zip'
+1421.2 E: Unable to locate package php8.3-bcmath
+1421.2 E: Couldn't find any package by glob 'php8.3-bcmath'
+1421.2 E: Couldn't find any package by regex 'php8.3-bcmath'
+1421.2 E: Unable to locate package php8.3-soap
+1421.2 E: Couldn't find any package by glob 'php8.3-soap'
+1421.2 E: Couldn't find any package by regex 'php8.3-soap'
+1421.2 E: Unable to locate package php8.3-intl
+1421.2 E: Couldn't find any package by glob 'php8.3-intl'
+1421.2 E: Couldn't find any package by regex 'php8.3-intl'
+1421.2 E: Unable to locate package php8.3-readline
+1421.2 E: Couldn't find any package by glob 'php8.3-readline'
+1421.2 E: Couldn't find any package by regex 'php8.3-readline'
+1421.2 E: Unable to locate package php8.3-ldap
+1421.2 E: Couldn't find any package by glob 'php8.3-ldap'
+1421.2 E: Couldn't find any package by regex 'php8.3-ldap'
+1421.2 E: Unable to locate package php8.3-msgpack
+1421.2 E: Couldn't find any package by glob 'php8.3-msgpack'
+1421.2 E: Couldn't find any package by regex 'php8.3-msgpack'
+1421.2 E: Unable to locate package php8.3-igbinary
+1421.2 E: Couldn't find any package by glob 'php8.3-igbinary'
+1421.2 E: Couldn't find any package by regex 'php8.3-igbinary'
+1421.2 E: Unable to locate package php8.3-redis
+1421.2 E: Couldn't find any package by glob 'php8.3-redis'
+1421.2 E: Couldn't find any package by regex 'php8.3-redis'
+1421.2 E: Unable to locate package php8.3-swoole
+1421.2 E: Couldn't find any package by glob 'php8.3-swoole'
+1421.2 E: Couldn't find any package by regex 'php8.3-swoole'
+1421.2 E: Unable to locate package php8.3-memcached
+1421.2 E: Couldn't find any package by glob 'php8.3-memcached'
+1421.2 E: Couldn't find any package by regex 'php8.3-memcached'
+1421.2 E: Unable to locate package php8.3-pcov
+1421.2 E: Couldn't find any package by glob 'php8.3-pcov'
+1421.2 E: Couldn't find any package by regex 'php8.3-pcov'
+1421.2 E: Unable to locate package php8.3-imagick
+1421.2 E: Couldn't find any package by glob 'php8.3-imagick'
+1421.2 E: Couldn't find any package by regex 'php8.3-imagick'
+1421.2 E: Unable to locate package php8.3-xdebug
+1421.2 E: Couldn't find any package by glob 'php8.3-xdebug'
+1421.2 E: Couldn't find any package by regex 'php8.3-xdebug'
+------
+failed to solve: process "/bin/sh -c apt-get update     && mkdir -p /etc/apt/keyrings     && apt-get install -y gnupg gosu curl ca-certificates zip unzip git supervisor sqlite3 libcap2-bin libpng-dev python2 dnsutils librsvg2-bin fswatch ffmpeg     && curl -sS 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x14aa40ec0831756756d7f66c4f4ea0aae5267a6c' | gpg --dearmor | tee /etc/apt/keyrings/ppa_ondrej_php.gpg > /dev/null     && echo \"deb [signed-by=/etc/apt/keyrings/ppa_ondrej_php.gpg] https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy main\" > /etc/apt/sources.list.d/ppa_ondrej_php.list     && apt-get update     && apt-get install -y php8.3-cli php8.3-dev        php8.3-pgsql php8.3-sqlite3 php8.3-gd        php8.3-curl        php8.3-imap php8.3-mysql php8.3-mbstring        php8.3-xml php8.3-zip php8.3-bcmath php8.3-soap        php8.3-intl php8.3-readline        php8.3-ldap        php8.3-msgpack php8.3-igbinary php8.3-redis php8.3-swoole        php8.3-memcached php8.3-pcov php8.3-imagick php8.3-xdebug     && curl -sLS https://getcomposer.org/installer | php -- --install-dir=/usr/bin/ --filename=composer     && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg     && echo \"deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_VERSION.x nodistro main\" > /etc/apt/sources.list.d/nodesource.list     && apt-get update     && apt-get install -y nodejs     && npm install -g npm     && npm install -g pnpm     && npm install -g bun     && curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | tee /etc/apt/keyrings/yarn.gpg >/dev/null     && echo \"deb [signed-by=/etc/apt/keyrings/yarn.gpg] https://dl.yarnpkg.com/debian/ stable main\" > /etc/apt/sources.list.d/yarn.list     && curl -sS https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor | tee /etc/apt/keyrings/pgdg.gpg >/dev/null     && echo \"deb [signed-by=/etc/apt/keyrings/pgdg.gpg] http://apt.postgresql.org/pub/repos/apt jammy-pgdg main\" > /etc/apt/sources.list.d/pgdg.list     && apt-get update     && apt-get install -y yarn     && apt-get install -y mysql-client     && apt-get install -y postgresql-client-$POSTGRES_VERSION     && apt-get -y autoremove     && apt-get clean     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*" did not complete successfully: exit code: 100
+
